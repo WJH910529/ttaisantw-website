@@ -497,6 +497,41 @@ img {
   font-size: 0.95rem;
 }
 
+.map-section {
+  margin-top: 28px;
+}
+
+.map-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.map-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 24px 18px;
+}
+
+.map-head h3 {
+  margin: 4px 0 0;
+}
+
+.map-head a {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.map-embed-wrap {
+  width: 100%;
+  height: 420px;
+  border-top: 1px solid var(--border);
+}
+
 .site-footer {
   padding: 28px 0 42px;
   background: #182718;
@@ -578,7 +613,8 @@ img {
 
   .hero-actions,
   .footer-wrap,
-  .rating-banner {
+  .rating-banner,
+  .map-head {
     flex-direction: column;
     align-items: stretch;
   }
