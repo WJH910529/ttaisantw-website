@@ -198,6 +198,34 @@ img {
   font-weight: 600;
 }
 
+.site-nav .nav-external-link {
+  color: #9b6a16;
+  font-weight: 800;
+}
+
+.site-nav .nav-external-link:hover {
+  color: #7a5310;
+}
+
+.external-link-btn {
+  background: rgba(216, 164, 60, 0.18);
+  color: #fff;
+  border-color: rgba(255, 232, 166, 0.32);
+}
+
+.external-link-btn:hover {
+  background: rgba(216, 164, 60, 0.28);
+}
+
+.inline-external-link {
+  color: #9b6a16;
+  font-weight: 700;
+}
+
+.inline-external-link:hover {
+  color: #7a5310;
+}
+
 .nav-toggle {
   display: none;
   width: 46px;
@@ -495,6 +523,11 @@ img {
 
 .contact-note {
   font-size: 0.95rem;
+}
+
+.contact-section-title {
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+  margin-bottom: 20px;
 }
 
 .map-section {
